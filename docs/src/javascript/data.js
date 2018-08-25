@@ -4,22 +4,15 @@ let buton1= document.getElementById('btn2');
 let buton2= document.getElementById('btn3');
 let peliculas = document.getElementById('info');
 
+
 window.painter = (data)=>{
    
     console.log(data);
     let arrayMovies = '';
     data.forEach(movie =>{
-        peliculas.innerHTML += `<div class = "card">
-            <div class = "movie">
-            <p>Nombre: ${movie.Title}</p>
-            <p>Nombre: ${movie.Year}</p>
-            <p>Nombre: ${movie.Type}</p>
-            <p>Nombre: <img src="${movie.Poster}"</p>
-            </div>
-            </div>`;
-    })   
+       
+    });   
 };
-
 buton.addEventListener('click', e =>{
 getMovies('women');    
 });
