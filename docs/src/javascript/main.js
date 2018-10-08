@@ -14,5 +14,6 @@ window.getMovies = (search) => {
         console.log(error);
     })
     }
+    
 
 

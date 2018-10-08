@@ -44,6 +44,14 @@ getMovies('chicken');
 
 
 
+
+
+
+
+
+
+
+
 // {/* <p>Nombre: ${movie.imdbID}</p> */}
 
 
