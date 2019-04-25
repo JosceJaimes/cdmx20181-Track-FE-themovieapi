@@ -7,7 +7,7 @@ let peliculas = document.getElementById('info');
 window.painter = (data)=>{
     peliculas.innerHTML='';
     console.log(data);
-    let arrayMovies = '';
+    // let arrayMovies = '';
     data.forEach(movie =>{
         peliculas.innerHTML += `<div class = "card">
         <center>
