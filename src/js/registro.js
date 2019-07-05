@@ -1,6 +1,6 @@
 //    //Añadiendo miembros
 
-let users = document.getElementById('user');
+// let users = document.getElementById('user');
 let emails = document.getElementById('email1');
 let password = document.getElementById('password1');
 let btnAddMember = document.getElementById('addMember');
@@ -42,8 +42,8 @@ const autentificate = (provider) => {
 btnAddMember.addEventListener('click', e =>{
     console.log("hol");
     
- let name = users.value;
- console.log(name);
+//  let name = users.value;
+//  console.log(name);
  
  let mail = emails.value;
  console.log(mail);

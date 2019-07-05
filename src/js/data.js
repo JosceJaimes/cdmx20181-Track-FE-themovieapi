@@ -58,3 +58,4 @@ getMovies('transformers');
 buton2.addEventListener('click', e =>{
 getMovies('chicken');    
 });
+
