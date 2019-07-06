@@ -1,0 +1,69 @@
+form {
+    
+    height: 50%;
+    width: 850%;
+    background-color: blue;
+    text-align: center;
+
+}
+.col-sm-5{
+    /* background-color: blue; */
+    margin-left: 30%;
+    padding: 5%; 
+
+}
+
+.col-sm-5 input {
+    
+    text-align: center;
+    margin-left: 15%; 
+
+} 
+#title{
+    margin-top: 5%;
+    border: blue 5px solid;
+    text-align: center;
+    color:rgb(172, 226, 222);
+}
+
+label {
+    font-size: 25px;
+    color: black;
+}
+img{
+
+    float: left;
+    padding: 10px 0 10px 35%;
+    
+    height: 150px;
+
+}
+#title h1{    
+    font-size: 40px;
+    font-family: 'Crete Round', serif;
+}
+body {
+    background-color: black !important;
+}
+.container #enlaces {
+    padding: 0;
+    background-color: blue;
+}
+button{
+    background-color: blue;
+    border: blue 2px solid;
+    font-size: 30px !important;
+}
+button #register {
+    font-size: 30%;
+}
+
+#addMember {
+    border: black 2px solid
+}
+#buttons #addMember {
+    font-size: 20px;
+    height: 50px !important;
+    width: 100%;
+    margin-left: 15%; 
+}
