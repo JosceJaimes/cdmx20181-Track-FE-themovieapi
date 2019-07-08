@@ -72,14 +72,11 @@ window.painter = (data)=>{
     console.log(data);
     // let arrayMovies = '';
     data.forEach(movie =>{
-        peliculas.innerHTML += `<div class="col-md-4">
+        peliculas.innerHTML += `<div class="col-md-2">
         <div class="card">
-        <div class = "estudiante">
         <p><img src="${movie.Poster}"></p>
         <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#${movie.imdbID}">
-        <button>
-        ver datos
-        </button>
+        Más info
       </a>
 
         <div class = "card">
@@ -89,7 +86,7 @@ window.painter = (data)=>{
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel"></h5>
-              <button type="button" claxss="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
                 </div>
@@ -97,11 +94,9 @@ window.painter = (data)=>{
                <p>Nombre: ${movie.Title}</p>
                <p>Año: ${movie.Year}</p>
                <p>Tipo: ${movie.Type}</p>
-               <p><img src="${movie.Poster}"></p>
+               <img src="${movie.Poster}"></<img>
                </div>
-             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>            
-             </div>
+
           </div> 
         </div>
       </div>
