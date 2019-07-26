@@ -1,13 +1,12 @@
-//    //Añadiendo miembros
+   //Añadiendo miembros
 
-// let users = document.getElementById('user');
+let users = document.getElementById('user');
 const emails = document.getElementById('email1');
 const password = document.getElementById('password1');
 const btnAddMember = document.getElementById('addMember');
 const btnGoogle = document.getElementById('google');
-const btninto = document.getElementById('into');
 
-validateEmail = (userRegistered) => {
+const validateEmail = (userRegistered) => {
   var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return regex.test(userRegistered) ? true : false;
 };
